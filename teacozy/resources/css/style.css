@@ -1,0 +1,138 @@
+/* generic styling */
+body {
+  font-family: Helvetica;
+  font-size: 22px;
+  color: seashell;
+  background-color: black;
+  opacity: 0.9;
+}
+h2 {
+  margin: 10px;
+}
+h4 {
+  margin: 10px;
+  text-align: center;
+}
+
+/* header styling */
+header {
+  background-color: black;
+  height: 69px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  top: 0px;
+  left: 0px
+  border-bottom: 1px solid seashell;
+}
+nav a {
+  color: white;
+  text-decoration: underline;
+  padding-right: 20px;
+}
+#logo {
+  height: 50px;
+  margin-right: 100px;
+  margin-left: 10px;
+  padding: 0;
+}
+
+/* maincontainer wraps all content above footer */
+.maincontainer {
+  margin: 70px auto 0px auto;
+  width: 1200px;
+}
+
+/* mission styling */
+.missioncontainer {
+  background-image: url("../images/img-mission-background.jpg");
+  height: 700px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.missionbar {
+  background-color: black;
+  width: 100%;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* featured tea styling */
+.teacontainer {
+  width: 100%;
+  padding-top: 70px;
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: center;
+  justify-content: center;
+}
+.teacards {
+  width: 1040px;
+  padding: 20px 0px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  justify-content: center;
+}
+.teacards h4 {
+  margin: 0px;
+  padding: 0px;
+}
+.teapic {
+  height: 200px;
+  width: 300px;
+  margin: 20px 10px 10px 10px;
+}
+
+/* locations styling */
+#nav_location {
+  padding-top: 70px;
+}
+.locationcontainer {
+  background-image: url("../images/img-locations-background.jpg");
+  height: 500px;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: center;
+}
+#loc_head {
+  min-width: 100%;
+  text-align: center;
+  padding: 0px;
+  margin: 0px;
+}
+.locationrow {
+  display: flex;
+  margin-bottom: 50px;
+}
+.location {
+  background-color: black;
+  opacity: 1;
+  text-align: center;
+  width: 300px;
+  margin: 15px 20px;
+}
+.location p {
+  padding: 10px;
+}
+
+/* footer styling */
+footer {
+  text-align: center;
+}
+.contact {
+  height: 200px;
+}
+#copyright {
+  text-align: left;
+  padding-left: 0;
+  margin-left: 20px;
+}
